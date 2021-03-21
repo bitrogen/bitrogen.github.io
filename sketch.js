@@ -1,7 +1,7 @@
 let a = 50;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(600, 600);
   background(20,25,30);
   stroke(255);
   strokeWeight(3)
