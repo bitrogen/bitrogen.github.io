@@ -1,0 +1,40 @@
+html,body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+body {
+    margin: 0 auto;
+    background-color: aqua;
+}
+.container-main {
+    min-height:300px;
+    min-width:200px;
+    height: 600px;
+    width: 900px;
+    background-color: bisque;
+    margin: 100px auto;
+    display: flex;
+}
+.container-main .container-left {
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    background-color: black;
+}
+.container-main .container-right {
+    border-radius: 10px;
+    flex: 1;
+}
+.container-main .container-right .container-top {
+    display: flex;
+    border-radius: 10px;
+    width: 700px;
+    height: 300px;
+    background-color: blueviolet;
+}
+.container-main .container-right .container-bot {
+    height: 300px;
+    border-radius: 10px;
+    background-color: crimson;
+} 
